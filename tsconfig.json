@@ -1,0 +1,22 @@
+{
+	"compilerOptions": {
+		"target": "es5",
+		"lib": ["dom", "dom.iterable", "esnext"],
+		"esModuleInterop": true,
+		"skipLibCheck": true,
+		"allowSyntheticDefaultImports": true,
+		"strict": true,
+		"forceConsistentCasingInFileNames": true,
+		"module": "commonjs",
+		"moduleResolution": "node",
+		"resolveJsonModule": true,
+		"isolatedModules": true,
+		"jsx": "react-jsx",
+		"allowJs": false,
+		"noEmit": true,
+		"noFallthroughCasesInSwitch": true,
+		"noUncheckedIndexedAccess": true,
+		"sourceMap": true
+	},
+	"include": ["src"]
+}

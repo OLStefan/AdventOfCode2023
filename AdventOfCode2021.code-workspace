@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"editor.insertSpaces": false,
+		"[javascriptreact]": {
+			"editor.defaultFormatter": "esbenp.prettier-vscode"
+		},
+		"[json]": {
+			"editor.defaultFormatter": "esbenp.prettier-vscode"
+		},
+		"workbench.tree.indent": 17,
+		"files.eol": "\n",
+		"todo-tree.general.rootFolder": "${workspaceFolder}/src"
+	},
+	"extensions": {
+		"recommendations": ["dbaeumer.vscode-eslint", "esbenp.prettier-vscode"]
+	}
+}
