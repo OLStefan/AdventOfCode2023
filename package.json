@@ -11,18 +11,20 @@
 		"day": "ts-node -s src/day-$0/puzzle-$1.ts"
 	},
 	"dependencies": {
-		"@types/lodash": "^4.14.202",
-		"lodash": "^4.17.21",
-		"ts-node": "^10.9.2"
+		"@types/lodash": "~4.14.202",
+		"lcm": "~0.0.3",
+		"lodash": "~4.17.21",
+		"ts-node": "~10.9.2"
 	},
 	"devDependencies": {
-		"@types/node": "^18.19.3",
-		"eslint": "^8.55.0",
-		"eslint-config-prettier": "^9.1.0",
-		"eslint-plugin-import": "^2.29.0",
-		"eslint-plugin-prettier": "^5.0.1",
-		"prettier": "^3.1.1",
-		"typescript": "^5.3.3"
+		"@types/lcm": "~0.0.2",
+		"@types/node": "~18.19.3",
+		"eslint": "~8.55.0",
+		"eslint-config-prettier": "~9.1.0",
+		"eslint-plugin-import": "~2.29.0",
+		"eslint-plugin-prettier": "~5.0.1",
+		"prettier": "~3.1.1",
+		"typescript": "~5.3.3"
 	},
 	"packageManager": "yarn@4.0.2"
 }

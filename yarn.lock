@@ -188,14 +188,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/lodash@npm:^4.14.202":
+"@types/lcm@npm:~0.0.2":
+  version: 0.0.2
+  resolution: "@types/lcm@npm:0.0.2"
+  checksum: c5669b56656222aaf70f2606d49c6e38fa521ad8e98a9b6fd6031223a841134b5ef5636cc7e54cabc03d1ca2050671ec55c5211ca24593a5458a7548fbfb573b
+  languageName: node
+  linkType: hard
+
+"@types/lodash@npm:~4.14.202":
   version: 4.14.202
   resolution: "@types/lodash@npm:4.14.202"
   checksum: 1bb9760a5b1dda120132c4b987330d67979c95dbc22612678682cd61b00302e190f4207228f3728580059cdab5582362262e3819aea59960c1017bd2b9fb26f6
   languageName: node
   linkType: hard
 
-"@types/node@npm:^18.19.3":
+"@types/node@npm:~18.19.3":
   version: 18.19.3
   resolution: "@types/node@npm:18.19.3"
   dependencies:
@@ -240,16 +247,18 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "advent-of-code-2023@workspace:."
   dependencies:
-    "@types/lodash": "npm:^4.14.202"
-    "@types/node": "npm:^18.19.3"
-    eslint: "npm:^8.55.0"
-    eslint-config-prettier: "npm:^9.1.0"
-    eslint-plugin-import: "npm:^2.29.0"
-    eslint-plugin-prettier: "npm:^5.0.1"
-    lodash: "npm:^4.17.21"
-    prettier: "npm:^3.1.1"
-    ts-node: "npm:^10.9.2"
-    typescript: "npm:^5.3.3"
+    "@types/lcm": "npm:~0.0.2"
+    "@types/lodash": "npm:~4.14.202"
+    "@types/node": "npm:~18.19.3"
+    eslint: "npm:~8.55.0"
+    eslint-config-prettier: "npm:~9.1.0"
+    eslint-plugin-import: "npm:~2.29.0"
+    eslint-plugin-prettier: "npm:~5.0.1"
+    lcm: "npm:~0.0.3"
+    lodash: "npm:~4.17.21"
+    prettier: "npm:~3.1.1"
+    ts-node: "npm:~10.9.2"
+    typescript: "npm:~5.3.3"
   languageName: unknown
   linkType: soft
 
@@ -686,7 +695,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-prettier@npm:^9.1.0":
+"eslint-config-prettier@npm:~9.1.0":
   version: 9.1.0
   resolution: "eslint-config-prettier@npm:9.1.0"
   peerDependencies:
@@ -720,7 +729,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-import@npm:^2.29.0":
+"eslint-plugin-import@npm:~2.29.0":
   version: 2.29.0
   resolution: "eslint-plugin-import@npm:2.29.0"
   dependencies:
@@ -747,7 +756,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-prettier@npm:^5.0.1":
+"eslint-plugin-prettier@npm:~5.0.1":
   version: 5.0.1
   resolution: "eslint-plugin-prettier@npm:5.0.1"
   dependencies:
@@ -783,7 +792,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:^8.55.0":
+"eslint@npm:~8.55.0":
   version: 8.55.0
   resolution: "eslint@npm:8.55.0"
   dependencies:
@@ -1043,6 +1052,13 @@ __metadata:
   version: 1.2.3
   resolution: "functions-have-names@npm:1.2.3"
   checksum: 0ddfd3ed1066a55984aaecebf5419fbd9344a5c38dd120ffb0739fac4496758dcf371297440528b115e4367fc46e3abc86a2cc0ff44612181b175ae967a11a05
+  languageName: node
+  linkType: hard
+
+"gcd@npm:^0.0.1":
+  version: 0.0.1
+  resolution: "gcd@npm:0.0.1"
+  checksum: bf2d31a20092b368a2d05eebf3eabc3dab9808a582ab022195f679dee83c7d3408794595e323f4cebec551dd4d5044c6342cb24fabbc875f33643329edcc6c06
   languageName: node
   linkType: hard
 
@@ -1536,6 +1552,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"lcm@npm:~0.0.3":
+  version: 0.0.3
+  resolution: "lcm@npm:0.0.3"
+  dependencies:
+    gcd: "npm:^0.0.1"
+  checksum: 659bc1495ed729cc1358db0f45a50aecfc4e03cc87e3d42e22ac4e57ce7e449e8e3101752f07947fa1e7b4514d3287ae6942fb19c30033b7e87405bcf5b007e2
+  languageName: node
+  linkType: hard
+
 "levn@npm:^0.4.1":
   version: 0.4.1
   resolution: "levn@npm:0.4.1"
@@ -1562,7 +1587,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lodash@npm:^4.17.21":
+"lodash@npm:~4.17.21":
   version: 4.17.21
   resolution: "lodash@npm:4.17.21"
   checksum: c08619c038846ea6ac754abd6dd29d2568aa705feb69339e836dfa8d8b09abbb2f859371e86863eda41848221f9af43714491467b5b0299122431e202bb0c532
@@ -1874,7 +1899,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:^3.1.1":
+"prettier@npm:~3.1.1":
   version: 3.1.1
   resolution: "prettier@npm:3.1.1"
   bin:
@@ -2185,7 +2210,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ts-node@npm:^10.9.2":
+"ts-node@npm:~10.9.2":
   version: 10.9.2
   resolution: "ts-node@npm:10.9.2"
   dependencies:
@@ -2305,7 +2330,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:^5.3.3":
+"typescript@npm:~5.3.3":
   version: 5.3.3
   resolution: "typescript@npm:5.3.3"
   bin:
@@ -2315,7 +2340,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@npm%3A^5.3.3#optional!builtin<compat/typescript>":
+"typescript@patch:typescript@npm%3A~5.3.3#optional!builtin<compat/typescript>":
   version: 5.3.3
   resolution: "typescript@patch:typescript@npm%3A5.3.3#optional!builtin<compat/typescript>::version=5.3.3&hash=e012d7"
   bin:
