@@ -8,7 +8,7 @@
 		"check:linter": "eslint . --ext .tsx --ext .ts",
 		"check:all": "yarn check:types && yarn check:style && yarn check:linter && yarn test",
 		"prettier:fix": "prettier --write .",
-		"day": "run(){ ts-node -s src/day-$1/puzzle-$2.ts; }; run"
+		"day": "ts-node -s src/day-$0/puzzle-$1.ts"
 	},
 	"dependencies": {
 		"@types/lodash": "^4.14.202",
